@@ -242,7 +242,7 @@ ul {
 @media only screen and (max-width: 600px) {
     .gallerybody {
         background-image: url(../images/gallery-background-mobile.png);
-		background-size: 100% 80%;
+		background-size: 100% 100%;
 		padding-top: 82px;
     }
 }
