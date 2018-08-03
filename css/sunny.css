@@ -1,0 +1,287 @@
+
+.form {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+	margin: auto;
+    font-size: 16px;
+}
+.works{
+	width: 40rem;
+	display: block;
+}
+.workshead{
+	color: aliceblue;
+font-family: 'Lato', sans-serif; 
+}
+
+
+.worklink{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+	margin: auto;
+    font-size: 16px;
+}
+
+
+
+
+.imagerow {
+	margin-left: 10%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+padding-bottom: 5%;
+}
+
+.item {
+  background: #ddd;
+  height: 190px;
+  width: 190px;
+  margin: 5px;
+}
+
+
+
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
+}
+
+.imagegall {
+	background-color: aliceblue;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.footer-main {
+	bottom: 0;
+	background-color: black;
+}
+
+.gallery {
+	background-color: white;
+	margin-top: 30%;
+}
+@media only screen and (max-width: 600px) {
+    .gallery{
+		margin-top:140px;
+        
+    }
+}
+
+
+
+.bird {
+	height: 15rem;
+	width: 60rem;
+}
+@media only screen and (max-width: 600px) {
+    .bird{
+		height:100px;
+		width: 350px;
+		margin-bottom: 40%;
+		margin-top: 10%;
+		
+        
+    }
+}
+
+
+.painter {
+	width: 250px;
+    height: 200px;
+    margin-left: 20px;
+	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #4EAC1A;
+  cursor: pointer;
+	color: white;
+		
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #4C9608;
+	color: white;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: black;
+   color: white;
+}
+
+#albumbuttons {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: transparent;
+	padding-left: 10px;
+	padding-right: 10px; 
+	padding-top: 40px;
+}
+
+
+@media only screen and (min-width: 600px) {
+	#albumbuttons{
+		padding-top: 50px;
+	}
+}
+
+
+
+
+
+
+.footer {
+	background: #000000;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.arc {
+	background: green;
+}
+
+.gallerybody {
+	background-image: url(../images/gallery-background.png),url(../images/gallery-background-2.png);
+	background-size: cover;
+	background-repeat: no-repeat,repeat-y;
+}
+@media only screen and (max-width: 600px) {
+    .gallerybody {
+        background-image: url(../images/gallery-background-mobile.png);
+		background-size: 100% 80%;
+		padding-top: 82px;
+    }
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+.albumheading {
+	font-size: 4rem;
+	margin-top: 5%;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .albumheading{
+        font-size: 2rem;
+    }
+}
+
+
+
+p {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.core {
+	height: 500px;
+}
+
+.core1 {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
