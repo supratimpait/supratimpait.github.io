@@ -158,8 +158,8 @@ p img {
 }
 
 p.lead {
-  font-family: "muli-light", sans-serif;
-  font-size: 2.1rem;
+  font-family: "muli-light", sans-serif;'
+  font-size: 1.6rem;
   line-height: 1.857;
   color: #838383;
   margin-bottom: 3.6rem;
@@ -167,7 +167,7 @@ p.lead {
 
 @media only screen and (max-width: 768px) {
   p.lead {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -1826,10 +1826,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left .button.stroke {
     margin: 0 0 1.2rem 0;
   }
-  .home-image-right {
-    width: 320px;
-    margin-bottom: -298px;
-  }
+
 }
 
 
@@ -1847,7 +1844,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 @media only screen and (max-width: 600px) {
     #about {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
