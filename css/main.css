@@ -1846,6 +1846,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     #about {
         padding-top: 40px;
     }
+	
+	@media only screen and (max-width: 600px) {
+    .about {
+        padding-top: 60px;
+    }
+}
 }
 
 .about-intro {

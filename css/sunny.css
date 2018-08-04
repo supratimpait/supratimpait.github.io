@@ -114,7 +114,7 @@ ul {
 }
 @media only screen and (max-width: 600px) {
     .gallery{
-		margin-top:140px;
+		margin-top:180px;
         
     }
 }
@@ -235,16 +235,17 @@ ul {
 }
 
 .gallerybody {
-	background-image: url(../images/gallery-background.png),url(../images/gallery-background-2.png);
-	background-size: cover;
+	background-image: url(../images/gallery-background.jpg),url(../images/gallery-background-2.png);
+	background-size: 100%, cover;
 	background-repeat: no-repeat,repeat-y;
 }
 @media only screen and (max-width: 600px) {
-    .gallerybody {
-        background-image: url(../images/gallery-background-mobile.png);
-		background-size: 100% 100%;
-		padding-top: 82px;
-    }
+@media only screen and (max-width: 600px) {
+	.gallerybody{
+		background-image: url(../images/gallery-background-mobile.jpg);
+		background-size: 100%;
+	}
+}
 }
 a:hover {
     text-decoration: none;
