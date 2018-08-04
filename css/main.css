@@ -1842,8 +1842,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #about {
   min-height: 786px;
   background-color: white;
-  padding-top: 10px;
+  padding-top: 8rem;
   overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    #about {
+        padding-top: 20px;
+    }
 }
 
 .about-intro {
