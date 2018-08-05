@@ -1085,9 +1085,9 @@ h1.intro-header {
 h1.intro-header::before {
   display: block;
   content: "";
-  height: 2px;
-  width: 70px;
-  background-color: #39b54a;
+  height: 4px;
+  width: 100px;
+  background-color: #FAD403;
   position: absolute;
   left: 0;
   bottom: 0;
